@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100vw; /*para manipular para deixar a paigina com o tamanho total com essa medida*/
+    background-image: url("https://picsum.photos/1920/1080");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 25px;
+    height: 25px;
+}
+.main {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 90%;
+}
+button {
+    float: right;
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 15px;
+}
+.box-pequena{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-top: 10px;
+}
